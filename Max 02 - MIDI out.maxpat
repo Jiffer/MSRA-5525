@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 363.0, 87.0, 640.0, 779.0 ],
+		"rect" : [ 2159.0, 198.0, 640.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,670 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 2,
+							"revision" : 2,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 2229.0, 390.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 96.0, 26.0, 321.0, 20.0 ],
+									"text" : "https://cycling74.com/forums/change-midi-instrument"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-44",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 0,
+									"patching_rect" : [ 96.0, 160.0, 61.0, 22.0 ],
+									"text" : "noteout 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-43",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "float" ],
+									"patching_rect" : [ 96.0, 133.0, 110.0, 22.0 ],
+									"text" : "makenote 127 300"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-42",
+									"maxclass" : "kslider",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 96.0, 86.0, 252.0, 41.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 0,
+									"patching_rect" : [ 116.0, 305.0, 67.0, 22.0 ],
+									"text" : "noteout 10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-40",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 116.0, 261.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 116.0, 283.0, 74.0, 22.0 ],
+									"text" : "append 127"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"coll_data" : 									{
+										"count" : 53,
+										"data" : [ 											{
+												"key" : 0,
+												"value" : [ 35 ]
+											}
+, 											{
+												"key" : 1,
+												"value" : [ 36 ]
+											}
+, 											{
+												"key" : 2,
+												"value" : [ 37 ]
+											}
+, 											{
+												"key" : 3,
+												"value" : [ 38 ]
+											}
+, 											{
+												"key" : 4,
+												"value" : [ 40 ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ 50 ]
+											}
+, 											{
+												"key" : 6,
+												"value" : [ 48 ]
+											}
+, 											{
+												"key" : 7,
+												"value" : [ 47 ]
+											}
+, 											{
+												"key" : 8,
+												"value" : [ 45 ]
+											}
+, 											{
+												"key" : 9,
+												"value" : [ 43 ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ 41 ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ 46 ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ 42 ]
+											}
+, 											{
+												"key" : 13,
+												"value" : [ 44 ]
+											}
+, 											{
+												"key" : 14,
+												"value" : [ 51 ]
+											}
+, 											{
+												"key" : 15,
+												"value" : [ 59 ]
+											}
+, 											{
+												"key" : 16,
+												"value" : [ 53 ]
+											}
+, 											{
+												"key" : 17,
+												"value" : [ 52 ]
+											}
+, 											{
+												"key" : 18,
+												"value" : [ 49 ]
+											}
+, 											{
+												"key" : 19,
+												"value" : [ 57 ]
+											}
+, 											{
+												"key" : 20,
+												"value" : [ 55 ]
+											}
+, 											{
+												"key" : 21,
+												"value" : [ 60 ]
+											}
+, 											{
+												"key" : 22,
+												"value" : [ 61 ]
+											}
+, 											{
+												"key" : 23,
+												"value" : [ 62 ]
+											}
+, 											{
+												"key" : 24,
+												"value" : [ 63 ]
+											}
+, 											{
+												"key" : 25,
+												"value" : [ 64 ]
+											}
+, 											{
+												"key" : 26,
+												"value" : [ 78 ]
+											}
+, 											{
+												"key" : 27,
+												"value" : [ 79 ]
+											}
+, 											{
+												"key" : 28,
+												"value" : [ 65 ]
+											}
+, 											{
+												"key" : 29,
+												"value" : [ 66 ]
+											}
+, 											{
+												"key" : 30,
+												"value" : [ 54 ]
+											}
+, 											{
+												"key" : 31,
+												"value" : [ 75 ]
+											}
+, 											{
+												"key" : 32,
+												"value" : [ 76 ]
+											}
+, 											{
+												"key" : 33,
+												"value" : [ 77 ]
+											}
+, 											{
+												"key" : 34,
+												"value" : [ 69 ]
+											}
+, 											{
+												"key" : 35,
+												"value" : [ 74 ]
+											}
+, 											{
+												"key" : 36,
+												"value" : [ 73 ]
+											}
+, 											{
+												"key" : 37,
+												"value" : [ 70 ]
+											}
+, 											{
+												"key" : 38,
+												"value" : [ 58 ]
+											}
+, 											{
+												"key" : 39,
+												"value" : [ 56 ]
+											}
+, 											{
+												"key" : 40,
+												"value" : [ 67 ]
+											}
+, 											{
+												"key" : 41,
+												"value" : [ 68 ]
+											}
+, 											{
+												"key" : 42,
+												"value" : [ 80 ]
+											}
+, 											{
+												"key" : 43,
+												"value" : [ 81 ]
+											}
+, 											{
+												"key" : 44,
+												"value" : [ 39 ]
+											}
+, 											{
+												"key" : 45,
+												"value" : [ 72 ]
+											}
+, 											{
+												"key" : 46,
+												"value" : [ 71 ]
+											}
+, 											{
+												"key" : 47,
+												"value" : [ 82 ]
+											}
+, 											{
+												"key" : 48,
+												"value" : [ 83 ]
+											}
+, 											{
+												"key" : 49,
+												"value" : [ 84 ]
+											}
+, 											{
+												"key" : 50,
+												"value" : [ 85 ]
+											}
+, 											{
+												"key" : 51,
+												"value" : [ 86 ]
+											}
+, 											{
+												"key" : 52,
+												"value" : [ 87 ]
+											}
+ ]
+									}
+,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 116.0, 239.0, 78.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 1,
+										"precision" : 6
+									}
+,
+									"text" : "coll drumhits"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"allowdrag" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"items" : [ "Acoustic", "Kick", ",", "Electric", "Kick", ",", "Side", "Stick", ",", "Acoustic", "Snare", ",", "Electric", "Snare", ",", "High", "Tom", ",", "High-Mid", "Tom", ",", "Low-Mid", "Tom", ",", "Low", "Tom", ",", "High", "Floor", "Tom", ",", "Low", "Floor", "Tom", ",", "Open", "Hi-Hat", ",", "Closed", "Hi-Hat", ",", "Pedal", "Hi-Hat", ",", "Ride", 1, ",", "Ride", 2, ",", "Ride", "Bell", ",", "China", ",", "Crash", 1, ",", "Crash", 2, ",", "Splash", ",", "High", "Bongo", ",", "Low", "Bongo", ",", "Muted", "High", "Conga", ",", "Open", "High", "Conga", ",", "Low", "Conga", ",", "Muted", "Cuica", ",", "Open", "Cuica", ",", "High", "Timbale", ",", "Low", "Timbale", ",", "Tambourine", ",", "Claves", ",", "High", "Woodblock", ",", "Low", "Woodblock", ",", "Cabasa", 1, ",", "Long", "Guiro", ",", "Short", "Guiro", ",", "Maracas", ",", "Vibraslap", ",", "Cowbell", ",", "High", "Agogo", ",", "Low", "Agogo", ",", "Muted", "Triangle", ",", "Open", "Triangle", ",", "Hand", "Clap", ",", "Long", "Whistle", ",", "Short", "Whistle", ",", "Cabasa", 2, ",", "Sleighbells", ",", "Chimes", ",", "Knackfrosch", ",", "Short", "Slitdrum", ",", "Long", "Slitdrum" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 116.0, 217.0, 135.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-28",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 359.0, 129.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 257.0, 283.0, 67.0, 22.0 ],
+									"text" : "pgmout 10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 257.0, 261.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"coll_data" : 									{
+										"count" : 9,
+										"data" : [ 											{
+												"key" : 1,
+												"value" : [ 1 ]
+											}
+, 											{
+												"key" : 2,
+												"value" : [ 9 ]
+											}
+, 											{
+												"key" : 3,
+												"value" : [ 17 ]
+											}
+, 											{
+												"key" : 4,
+												"value" : [ 25 ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ 26 ]
+											}
+, 											{
+												"key" : 6,
+												"value" : [ 33 ]
+											}
+, 											{
+												"key" : 7,
+												"value" : [ 41 ]
+											}
+, 											{
+												"key" : 8,
+												"value" : [ 49 ]
+											}
+, 											{
+												"key" : 9,
+												"value" : [ 57 ]
+											}
+ ]
+									}
+,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 257.0, 239.0, 71.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 1,
+										"precision" : 6
+									}
+,
+									"text" : "coll drumkit"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"allowdrag" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"items" : [ "Standard", ",", "Room", ",", "Power", ",", "Electronic", ",", "TR-808", ",", "Jazz", ",", "Brush", ",", "Orchestra", ",", "SFX" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 257.0, 217.0, 104.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 359.0, 107.0, 32.5, 22.0 ],
+									"text" : "+ 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"allowdrag" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"items" : [ "Acoustic", "Grand", "Piano", ",", "Bright", "Acoustic", "Piano", ",", "Electric", "Grand", "Piano", ",", "Honky-Tonk", "Piano", ",", "Electric", "Piano", 1, ",", "Electric", "Piano", 2, ",", "Harpsichord", ",", "Clavinet", ",", "Celesta", ",", "Glockenspiel", ",", "Music", "Box", ",", "Vibraphone", ",", "Marimba", ",", "Xylophone", ",", "Tubular", "Bells", ",", "Dulcimer", ",", "Drawbar", "Organ", ",", "Percussive", "Organ", ",", "Rock", "Organ", ",", "Church", "Organ", ",", "Reed", "Organ", ",", "Accordion", ",", "Harmonica", ",", "Tango", "Accordion", ",", "Nylon", "Acoustic", "Guitar", ",", "Steel", "Acoustic", "Guitar", ",", "Jazz", "Acoustic", "Guitar", ",", "Clean", "Electric", "Guitar", ",", "Muted", "Electric", "Guitar", ",", "Overdriven", "Guitar", ",", "Distortion", "Guitar", ",", "Guitar", "Harmonics", ",", "Acoustic", "Bass", ",", "Fingered", "Electric", "Bass", ",", "Picked", "Electric", "Bass", ",", "Fretless", "Bass", ",", "Slap", "Bass", 1, ",", "Slap", "Bass", 2, ",", "Synth", "Bass", 1, ",", "Synth", "Bass", 2, ",", "Violin", ",", "Viola", ",", "Cello", ",", "Contrabass", ",", "Tremolo", "Strings", ",", "Pizzicato", "Strings", ",", "Orchestral", "Harp", ",", "Timpani", ",", "String", "Ensemble", 1, ",", "String", "Ensemble", 2, ",", "Synth", "Strings", 1, ",", "Synth", "Strings", 2, ",", "Choir", "Aahs", ",", "Voice", "Oohs", ",", "Synth", "Voice", ",", "Orchestra", "Hit", ",", "Trumpet", ",", "Trombone", ",", "Tuba", ",", "Muted", "Trumpet", ",", "French", "Horn", ",", "Brass", "Section", ",", "Synth", "Brass", 1, ",", "Synth", "Brass", 2, ",", "Soprano", "Sax", ",", "Alto", "Sax", ",", "Tenor", "Sax", ",", "Baritone", "Sax", ",", "Oboe", ",", "English", "Horn", ",", "Bassoon", ",", "Clarinet", ",", "Piccolo", ",", "Flute", ",", "Recorder", ",", "Pan", "Flute", ",", "Blown", "Bottle", ",", "Shakuhachi", ",", "Whistle", ",", "Ocarina", ",", "Square", ",", "Sawtooth", ",", "Calliope", ",", "Chiff", ",", "Charang", ",", "Voice", ",", "Fifths", ",", "Bass", "&", "Lead", ",", "New", "Age", ",", "Warm", ",", "Polysynth", ",", "Choir", ",", "Bowed", ",", "Metallic", ",", "Halo", ",", "Sweep", ",", "Rain", ",", "Soundtrack", ",", "Crystal", ",", "Atmosphere", ",", "Brightness", ",", "Goblins", ",", "Echoes", ",", "Sci-Fi", ",", "Sitar", ",", "Banjo", ",", "Shamisen", ",", "Koto", ",", "Kalimba", ",", "Bag", "Pipe", ",", "Fiddle", ",", "Shanai", ",", "Tinkle", "Bell", ",", "Agogo", ",", "Steel", "Drums", ",", "Woodblock", ",", "Taiko", "Drum", ",", "Melodic", "Tom", ",", "Synth", "Drum", ",", "Reverse", "Cymbal", ",", "Guitar", "Fret", "Noise", ",", "Breath", "Noise", ",", "Seashore", ",", "Bird", "Tweet", ",", "Telephone", "Ring", ",", "Helicopter", ",", "Applause", ",", "Gunshot" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 359.0, 85.0, 165.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 359.0, 151.0, 51.0, 22.0 ],
+									"text" : "pgmout"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-38", 0 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-43", 1 ],
+									"midpoints" : [ 338.5, 130.0, 151.0, 130.0 ],
+									"source" : [ "obj-42", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-43", 0 ],
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 1 ],
+									"midpoints" : [ 196.5, 156.0, 126.5, 156.0 ],
+									"source" : [ "obj-43", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"source" : [ "obj-43", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 74.0, 412.0, 71.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p midi-fonts"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
