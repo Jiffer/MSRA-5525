@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 512.0, 87.0, 640.0, 603.0 ],
+		"rect" : [ 359.0, 87.0, 640.0, 603.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 749.0, 725.0 ],
+						"rect" : [ 59.0, 87.0, 749.0, 599.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -83,7 +83,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-10",
@@ -106,9 +105,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 122.0, 54.0, 18.0, 50.0 ],
+									"patching_rect" : [ 122.0, 37.0, 18.0, 50.0 ],
 									"size" : 3,
-									"value" : 0
+									"value" : 2
 								}
 
 							}
@@ -152,7 +151,7 @@
 									"clipheight" : 29.0,
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "Macintosh HD:/Users/jif/Documents/teaching/MUSC4525/code/MSRA-5525/Max 10 - Appendix/cowbell.wav",
+												"absolutepath" : "cowbell.wav",
 												"filename" : "cowbell.wav",
 												"filekind" : "audiofile",
 												"id" : "u906009637",
@@ -163,7 +162,7 @@
 
 											}
 , 											{
-												"absolutepath" : "Macintosh HD:/Users/jif/Documents/teaching/MUSC4525/code/MSRA-5525/Max 10 - Appendix/hihat.wav",
+												"absolutepath" : "hihat.wav",
 												"filename" : "hihat.wav",
 												"filekind" : "audiofile",
 												"id" : "u309009640",
@@ -273,7 +272,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 398.0, 481.0, 640.0, 480.0 ],
+						"rect" : [ 409.0, 154.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -476,7 +475,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 954.0, 729.0 ],
+						"rect" : [ 94.0, 87.0, 991.0, 599.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -506,11 +505,59 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 52.0, 67.0, 33.0, 22.0 ],
+									"text" : "read"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 541.0, 601.0, 29.5, 22.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 591.0, 140.0, 65.0, 22.0 ],
+									"text" : "0, 200 400"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 518.0, 140.0, 65.0, 22.0 ],
+									"text" : "0, 200 100"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-41",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 159.0, 475.0, 150.0, 20.0 ],
+									"patching_rect" : [ 150.0, 474.0, 150.0, 20.0 ],
 									"text" : "go to time in ms"
 								}
 
@@ -557,7 +604,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 154.0, 617.0, 31.0, 22.0 ],
+									"patching_rect" : [ 154.0, 596.0, 31.0, 22.0 ],
 									"text" : "sig~"
 								}
 
@@ -569,7 +616,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 159.0, 512.0, 29.5, 22.0 ],
+									"patching_rect" : [ 154.0, 539.0, 29.5, 22.0 ],
 									"text" : "1"
 								}
 
@@ -687,7 +734,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
-									"patching_rect" : [ 445.0, 210.0, 34.0, 22.0 ],
+									"patching_rect" : [ 445.0, 205.0, 34.0, 22.0 ],
 									"text" : "line~"
 								}
 
@@ -699,7 +746,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 445.0, 186.0, 65.0, 22.0 ],
+									"patching_rect" : [ 445.0, 140.0, 65.0, 22.0 ],
 									"text" : "0, 200 200"
 								}
 
@@ -887,6 +934,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"source" : [ "obj-16", 0 ]
 								}
@@ -938,6 +992,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-27", 0 ]
 								}
@@ -954,6 +1015,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-31", 0 ]
 								}
 
 							}
@@ -1028,6 +1096,13 @@
 									"destination" : [ "obj-40", 0 ],
 									"order" : 1,
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
